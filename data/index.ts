@@ -73,12 +73,12 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Game eStore",
+      title: "GameLootX",
       des: "Level up your gaming experience with this e-commerce platform, offering a vast selection of in-game items, weapons, and tools for popular titles like Roblox.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/ts.svg", "/laravel.svg", "/bitcoin.svg", "/paypal.svg"],
       link: "http://game.ghazala5stars.com",
-      linkTitle: "/game.ghazala5stars.com",
+      linkTitle: "game.ghazala5stars.com",
     },
     {
       id: 2,
@@ -87,7 +87,7 @@ export const navItems = [
       img: "/p2.svg",
       iconLists: ["/re.svg", "/ts.svg", "/nodejs.svg", "/bunny.svg", "/formik.svg"],
       link: "https://fekry-edu.com",
-      linkTitle: "/fekry-edu.com",
+      linkTitle: "fekry-edu.com",
     },
     {
       id: 3,
@@ -96,7 +96,7 @@ export const navItems = [
       img: "/p3.svg",
       iconLists: ["/php.svg", "/wordpress.svg", "/figma.svg"],
       link: "https://elhanbly.com",
-      linkTitle: "/elhanbly.com",
+      linkTitle: "elhanbly.com",
     },
     {
       id: 4,
@@ -104,8 +104,8 @@ export const navItems = [
       des: "Welcome to a portfolio that sets the benchmark for excellence in web development worldwide.",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/aceternity.webp", "/three.svg", "/sentry.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-      linkTitle: "http://game.ghazala5stars.com",
+      link: "https://omarhassan.net",
+      linkTitle: "omarhassan.net",
     },
     {
       id: 5,
@@ -120,6 +120,7 @@ export const navItems = [
   
   export const testimonials = [
     {
+      id: 1,
       image: "/ziad.jpg",
       quote:
         "I had a business idea that I wanted to implement and needed the right person to help me with it. It was my first experience with something like this, and I was anxious that I wouldn't be able to do it. Thankfully, I met Omar. Although I didn’t have any technical knowledge, Omar was able to understand what I needed and successfully implement those ideas.",
@@ -127,13 +128,15 @@ export const navItems = [
       title: "Founder of GameLootX",
     },
     {
+      id: 2,
       image: "/ghazala.jpg",
       quote:
-        "Omar Hassan was a valuable member of my company's IT team. Thanks to his expertise and that of his team, I was able to expand my business into the online space. This transition not only enhanced my organization but also alleviated the challenges I previously faced with calculations and management.",
+      "Omar Hassan was a valuable member of my company's IT team. Thanks to his expertise and that of his team, I was able to expand my business into the online space. This transition not only enhanced my organization but also alleviated the challenges I previously faced with calculations and management.",
       name: "Mahmoud Ghazala",
       title: "Founder of Ghazala Company",
     },
     {
+      id: 3,
       image: "/profile.png",
       quote:
         "I am collaborating with Omar on the development of my learning platform. Not only did Omar build the platform, but he also contributed significantly by brainstorming and designing features that set it apart from similar products. One of the most impressive aspects of working with him was his flexibility in making changes to features even after their initial implementation.",
@@ -141,14 +144,16 @@ export const navItems = [
       title: "Owner of Fekry Edu",
     },
     {
+      id: 4,
       image: "/osama.jpg",
       quote:
         "Working with Omar was a great experience. His best quality is that he was able to deliver exactly what I asked for in a short time. If you're short on time and need the job done, I believe Omar will be a great choice.",
       name: "Osama Arafa",
-      title: "Frozen Foods Store Accountant",
+      title: "Frozen Food Store Accountant",
     },
     {
-      image: "/profile.svg",
+      id: 5,
+      image: "/assem.jpg",
       quote:
         "Working with Omar was unlike working with other developers. Omar was so friendly that he became my friend by the end of the project. I had a website built over a decade ago that I wanted to republish. I believed that the website was too old to maintain. However, Omar respected my small budget and was able to revive the website and successfully publish it.",
       name: "Assem Fouda",

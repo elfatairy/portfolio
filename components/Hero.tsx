@@ -2,7 +2,6 @@ import React from 'react'
 import { FaLocationArrow } from "react-icons/fa6"
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
-import Image from 'next/image'
 import MagicButton from './MagicButton'
 
 const Hero = () => {
@@ -20,13 +19,7 @@ const Hero = () => {
 
             <div className="flex justify-center relative my-20 z-10">
                 <div className="absolute -top-[80px]">
-                    <Image
-                        src="/picture.jpeg"
-                        alt="Omar Hassan's Picture"
-                        width={510}
-                        height={305}
-                        className='rounded-xl'
-                    />
+                    <img src="/picture.jpeg" width={510} height={305} alt="Omar Hassan's Picture" className="rounded-xl"/>
                     <div className='absolute top-0 left-0 right-0 bottom-0 bg-black opacity-60' />
                 </div>
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
